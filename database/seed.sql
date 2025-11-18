@@ -118,8 +118,8 @@ VALUES
 -- ============================================
 INSERT INTO audit_logs (user_id, action, table_name, record_id, new_data)
 VALUES
-(1, 'create', 'branches', 1, '{"name": "المخبز الرئيسي"}'),
-(2, 'create', 'branch_orders', 1, '{"branch_id": 2, "order_date": "' || CURRENT_DATE || '"}');
+(1, 'create', 'branches', 1, '{"name": "المخبز الرئيسي"}'::jsonb),
+(2, 'create', 'branch_orders', 1, ('{"branch_id": 2, "order_date": "' || CURRENT_DATE || '"}')::jsonb);
 
 -- ============================================
 -- Grant permissions (if needed)
