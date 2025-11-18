@@ -16,11 +16,11 @@ INSERT INTO branches (name, code, location, contact_phone, contact_email, active
 -- Password for all users: "password123" (hashed with bcrypt)
 -- ============================================
 INSERT INTO users (name, email, password_hash, role, branch_id, active) VALUES
-('أحمد المدير', 'admin@bakery.com', '$2a$10$X7PxVq8q9XN5Z6H.K5LqYe8ZQ1K2L3M4N5O6P7Q8R9S0T1U2V3W4X', 'manager', 1, true),
-('محمد مدير فرع النرجس', 'narjis@bakery.com', '$2a$10$X7PxVq8q9XN5Z6H.K5LqYe8ZQ1K2L3M4N5O6P7Q8R9S0T1U2V3W4X', 'user', 2, true),
-('فاطمة مديرة فرع العليا', 'olaya@bakery.com', '$2a$10$X7PxVq8q9XN5Z6H.K5LqYe8ZQ1K2L3M4N5O6P7Q8R9S0T1U2V3W4X', 'user', 3, true),
-('خالد مدير فرع الملقا', 'malqa@bakery.com', '$2a$10$X7PxVq8q9XN5Z6H.K5LqYe8ZQ1K2L3M4N5O6P7Q8R9S0T1U2V3W4X', 'user', 4, true),
-('نورة مديرة فرع الياسمين', 'yasmin@bakery.com', '$2a$10$X7PxVq8q9XN5Z6H.K5LqYe8ZQ1K2L3M4N5O6P7Q8R9S0T1U2V3W4X', 'user', 5, true);
+('أحمد المدير', 'admin@bakery.com', '$2a$10$hKL6TR6cW2AEnOCRVsp1G.OwF3Z4Aqqlsbr.PbFvX8Ci1hWfIeIky', 'manager', 1, true),
+('محمد مدير فرع النرجس', 'narjis@bakery.com', '$2a$10$hKL6TR6cW2AEnOCRVsp1G.OwF3Z4Aqqlsbr.PbFvX8Ci1hWfIeIky', 'user', 2, true),
+('فاطمة مديرة فرع العليا', 'olaya@bakery.com', '$2a$10$hKL6TR6cW2AEnOCRVsp1G.OwF3Z4Aqqlsbr.PbFvX8Ci1hWfIeIky', 'user', 3, true),
+('خالد مدير فرع الملقا', 'malqa@bakery.com', '$2a$10$hKL6TR6cW2AEnOCRVsp1G.OwF3Z4Aqqlsbr.PbFvX8Ci1hWfIeIky', 'user', 4, true),
+('نورة مديرة فرع الياسمين', 'yasmin@bakery.com', '$2a$10$hKL6TR6cW2AEnOCRVsp1G.OwF3Z4Aqqlsbr.PbFvX8Ci1hWfIeIky', 'user', 5, true);
 
 -- ============================================
 -- Insert Meals (أنواع العجائن)
